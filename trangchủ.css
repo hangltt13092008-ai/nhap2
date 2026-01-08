@@ -1,0 +1,135 @@
+body {
+    background: var(--bg-body);
+    position: relative;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* 🔥 Ẩn thanh cuộn ngang */
+}
+/* ================= HEADER ================= */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: var(--header); /* màu cho cái header */
+    box-shadow: 0 8px 30px var(--header-shadow-color);
+  }
+
+header h1 /* cái chữ nhạc ai*/ {
+    font-family: cursive;
+    font-size: 55px;/*cỡ chữ nhạc ai*/
+    font-weight: 1200;/*độ đậm*/
+    margin-left: 55px;
+    margin-right: auto;
+    background: var(--h1); /* gradient chữ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: var(--footer); /* màu cho cái footer */
+    box-shadow: 0 8px 30px var(--header-shadow-color);
+    animation:fadeIn .6s ease;
+}
+
+footer h2 {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 1200;/*độ đậm*/
+    margin-left: 62px;
+    margin-right: auto;
+    background: var(--h2); /* gradient chữ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* bảng */
+.member-table {
+  border-collapse: collapse;
+  margin-left: 62px;        /* canh với h2 */
+}
+
+.member-table td {
+  padding: 8px 40px 8px 0;
+  font-size: 15px;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* danh sách */
+.member-table ul {
+  padding: 0;
+  margin: 0;
+}
+
+.member-table li {
+  font-size: 15px;
+  color: #000;
+  padding: 6px 0;
+}
+
+ h4 /*thuc don*/ {
+  font-family:cursive;
+  font-size:37px;
+  font-weight:500px;
+  margin-left:185px;
+  margin-top:40px;
+  color:var(--h4);
+ }
+
+.food-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card);
+  color:#3D4363;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 18px 22px;
+  margin: 35px auto;
+  max-width: 700px;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.08),
+    0 2px 6px rgba(0, 0, 0, 0.05);
+
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* hover nhẹ, không gắt */
+.food-card:hover {
+  background:pink;
+  transform: translateY(-8px);
+  box-shadow:
+    0 14px 32px rgba(0, 0, 0, 0.21);
+}
+
+/* chữ */
+.food-text h3 {
+  font-family:;
+  margin-left:25px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.food-text p {
+  margin-left: 25px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* hình */
+.food-card img {
+  width: 280px;
+  height: 110px;
+  margin-right:48px;
+  object-fit: cover;
+  border-radius: 10px;
+}
