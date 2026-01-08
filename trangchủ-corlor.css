@@ -1,0 +1,28 @@
+:root{
+  /* ===== CORE (dùng chung) ===== */
+  --white: #ffffff; /* màu trắng dùng chung */
+  --black: #000000; /* màu đen dùng chung */
+  --transparent: transparent;
+
+  /* ===== BODY ===== */
+  --bg-body: #FFEFF6; /* màu nền toàn trang (body background) */
+
+  /* ===== HEADER ===== */
+  --header:linear-gradient(140deg,pink,#FFFCF7);
+  --header-shadow-color: rgba(0,20,35,0.13); /* màu bóng của header */
+
+  /* ===== HEADER H1 (NHẠC AI) ===== */
+   --h1:linear-gradient(120deg,#FAFAB9,#FAFA9E);
+  /*======FOOTER H2======*/
+   --footer:#FFC7B8;
+   --h2:#8F6559;
+  /*FOOD CARD*/
+   --card: linear-gradient(120deg,#D9FFF4,#D1F6F4);
+  /*======MAIN======*/
+   --h4:#8F6559;
+
+  /* ===== MENU TOGGLE (icon tròn) ===== */
+  --menu-toggle-bg: #ffffff; /* background của nút menu (trắng) */
+  --menu-toggle-line: #4cc9f0; /* màu 3 gạch trong icon menu */
+  --menu-toggle-shadow: rgba(0,0,0,.08); /* bóng nhẹ của icon menu */
+  --menu-toggle-hover-shadow-color: rgba(76,201,240,.55); /* glow khi hover icon menu */
